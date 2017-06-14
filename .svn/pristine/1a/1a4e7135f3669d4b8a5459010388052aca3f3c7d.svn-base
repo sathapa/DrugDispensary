@@ -1,0 +1,187 @@
+<?php
+
+/**
+ * This is the model class for table "drug".
+ *
+ * The followings are the available columns in table 'drug':
+ * @property integer $drugId
+ * @property integer $pid
+ * @property string $DrugName
+ * @property integer $DosePerDay
+ * @property integer $wakeup
+ * @property integer $breakfast
+ * @property integer $morning
+ * @property integer $midmorning
+ * @property integer $midday
+ * @property integer $lunch
+ * @property integer $midafternoon
+ * @property integer $evening
+ * @property integer $dinner
+ * @property integer $bedtime
+ */
+class Drug extends CActiveRecord
+{
+	/**
+	 * @return string the associated database table name
+	 */
+	public function tableName()
+	{
+		return 'drug';
+	}
+
+	/**
+	 * @return array validation rules for model attributes.
+	 */
+	public function rules()
+	{
+		// NOTE: you should only define rules for those attributes that
+		// will receive user inputs.
+		return array(
+			array('pid, DrugName, DosePerDay , Days' , 'required'),
+			array('pid, DosePerDay, wakeup, breakfast, morning, midmorning, midday, lunch, midafternoon, evening, dinner, bedtime', 'numerical', 'integerOnly'=>true),
+			array('DrugName', 'length', 'max'=>125),
+			// The following rule is used by search().
+			// @todo Please remove those attributes that should not be searched.
+			array('drugId, pid, DrugName, DosePerDay, wakeup, breakfast, morning, midmorning, midday, lunch, midafternoon, evening, dinner, bedtime', 'safe', 'on'=>'search'),
+		);
+	}
+
+	/**
+	 * @return array relational rules.
+	 */
+	public function relations()
+	{
+		// NOTE: you may need to adjust the relation name and the related
+		// class name for the relations automatically generated below.
+		return array(
+                    'distinct'=>array(
+                     self::BELONGS_TO,'Patient','pid'   
+                    )
+		);
+	}
+
+	/**
+	 * @return array customized attribute labels (name=>label)
+	 */
+	public function attributeLabels()
+	{
+		return array(
+			'drugId' => 'Drug',
+			'pid' => 'Pid',
+			'DrugName' => 'Drug Name',
+			'DosePerDay' => 'Dose Per Day',
+                        'Days'=>'Days',
+			'wakeup' => 'Wakeup',
+			'breakfast' => 'Breakfast',
+			'morning' => 'Morning',
+			'midmorning' => 'Midmorning',
+			'midday' => 'Midday',
+			'lunch' => 'Lunch',
+			'midafternoon' => 'Midafternoon',
+			'evening' => 'Evening',
+			'dinner' => 'Dinner',
+			'bedtime' => 'Bedtime',
+		);
+	}
+
+	/**
+	 * Retrieves a list of models based on the current search/filter conditions.
+	 *
+	 * Typical usecase:
+	 * - Initialize the model fields with values from filter form.
+	 * - Execute this method to get CActiveDataProvider instance which will filter
+	 * models according to data in model fields.
+	 * - Pass data provider to CGridView, CListView or any similar widget.
+	 *
+	 * @return CActiveDataProvider the data provider that can return the models
+	 * based on the search/filter conditions.
+	 */
+	public function search()
+	{
+		// @todo Please modify the following code to remove attributes that should not be searched.
+
+		$criteria=new CDbCriteria;
+
+		$criteria->compare('drugId',$this->drugId);
+		$criteria->compare('pid',$this->pid);
+		$criteria->compare('DrugName',$this->DrugName,true);
+		$criteria->compare('DosePerDay',$this->DosePerDay);
+                $criteria->compare('Days',$this->Days);
+		$criteria->compare('wakeup',$this->wakeup);
+		$criteria->compare('breakfast',$this->breakfast);
+		$criteria->compare('morning',$this->morning);
+		$criteria->compare('midmorning',$this->midmorning);
+		$criteria->compare('midday',$this->midday);
+		$criteria->compare('lunch',$this->lunch);
+		$criteria->compare('midafternoon',$this->midafternoon);
+		$criteria->compare('evening',$this->evening);
+		$criteria->compare('dinner',$this->dinner);
+		$criteria->compare('bedtime',$this->bedtime);
+
+		return new CActiveDataProvider($this, array(
+			'criteria'=>$criteria,
+		));
+	}
+
+	/**
+	 * Returns the static model of the specified AR class.
+	 * Please note that you should have this exact method in all your CActiveRecord descendants!
+	 * @param string $className active record class name.
+	 * @return Drug the static model class
+	 */
+	public static function model($className=__CLASS__)
+	{
+		return parent::model($className);
+	}
+    public function filter($Day,$pid)
+    {
+
+        $qry = "SELECT * FROM `drugschedule` where pid='$pid' and RecentDay='$Day'";
+
+        return Yii::app()->db->createCommand($qry)->queryAll();
+}
+
+    public function filter2($pid,$DrugName)
+    {
+
+        $qry = "SELECT * FROM `drugschedule` where pid='$pid' and DrugName='$DrugName'";
+
+        return Yii::app()->db->createCommand($qry)->queryAll();
+    }
+
+
+
+
+
+
+        public function distinctPatient()
+	{
+		// @todo Please modify the following code to remove attributes that should not be searched.
+
+		$criteria=new CDbCriteria;
+                
+                $criteria->select=array('pid');
+                $criteria->distinct=true;
+                
+		$criteria->compare('drugId',$this->drugId);
+		$criteria->compare('pid',$this->pid);
+		$criteria->compare('DrugName',$this->DrugName,true);
+		$criteria->compare('DosePerDay',$this->DosePerDay);
+                $criteria->compare('Days',$this->Days);
+		$criteria->compare('wakeup',$this->wakeup);
+		$criteria->compare('breakfast',$this->breakfast);
+		$criteria->compare('morning',$this->morning);
+		$criteria->compare('midmorning',$this->midmorning);
+		$criteria->compare('midday',$this->midday);
+		$criteria->compare('lunch',$this->lunch);
+		$criteria->compare('midafternoon',$this->midafternoon);
+		$criteria->compare('evening',$this->evening);
+		$criteria->compare('dinner',$this->dinner);
+		$criteria->compare('bedtime',$this->bedtime);
+
+		return new CActiveDataProvider($this, array(
+			'criteria'=>$criteria,
+		));
+	}
+
+}

@@ -1,0 +1,729 @@
+2014/03/06 06:49:29 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbMenu" is invalid. Make sure it points to an existing directory or file.' in C:\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\yii\framework\web\CWidgetFactory.php(146): YiiBase::import('bootstrap.widge...', true)
+#1 C:\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\xampp\htdocs\drugDisp\themes\blackboot\views\layouts\main.php(79): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="row...')
+#8 C:\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="row...')
+#9 C:\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#10 C:\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#11 C:\xampp\htdocs\drugDisp\themes\blackboot\views\layouts\column1.php(9): CBaseController->endContent()
+#12 C:\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#13 C:\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#14 C:\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\drugDisp\protected\controllers\SiteController.php(32): CController->render('index')
+#16 C:\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#17 C:\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\yii\framework\web\CWebApplication.php(282): CController->run('')
+#21 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#22 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\drugDisp\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/drugDisp/
+---
+2014/03/06 06:50:32 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbMenu" is invalid. Make sure it points to an existing directory or file.' in C:\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\yii\framework\web\CWidgetFactory.php(146): YiiBase::import('bootstrap.widge...', true)
+#1 C:\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\xampp\htdocs\drugDisp\themes\blackboot\views\layouts\main.php(79): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="row...')
+#8 C:\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="row...')
+#9 C:\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#10 C:\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#11 C:\xampp\htdocs\drugDisp\themes\blackboot\views\layouts\column1.php(9): CBaseController->endContent()
+#12 C:\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#13 C:\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#14 C:\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\drugDisp\protected\controllers\SiteController.php(32): CController->render('index')
+#16 C:\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#17 C:\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\yii\framework\web\CWebApplication.php(282): CController->run('')
+#21 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#22 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\drugDisp\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/drugDisp/index.php//Product/
+---
+2014/03/06 06:50:33 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbMenu" is invalid. Make sure it points to an existing directory or file.' in C:\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\yii\framework\web\CWidgetFactory.php(146): YiiBase::import('bootstrap.widge...', true)
+#1 C:\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\xampp\htdocs\drugDisp\themes\blackboot\views\layouts\main.php(79): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="row...')
+#8 C:\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="row...')
+#9 C:\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#10 C:\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#11 C:\xampp\htdocs\drugDisp\themes\blackboot\views\layouts\column1.php(9): CBaseController->endContent()
+#12 C:\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#13 C:\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#14 C:\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\drugDisp\protected\controllers\SiteController.php(32): CController->render('index')
+#16 C:\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#17 C:\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\yii\framework\web\CWebApplication.php(282): CController->run('')
+#21 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#22 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\drugDisp\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/drugDisp/index.php//Product/index?aid=1
+---
+2014/03/06 06:50:38 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbMenu" is invalid. Make sure it points to an existing directory or file.' in C:\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\yii\framework\web\CWidgetFactory.php(146): YiiBase::import('bootstrap.widge...', true)
+#1 C:\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\xampp\htdocs\drugDisp\themes\blackboot\views\layouts\main.php(79): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="row...')
+#8 C:\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="row...')
+#9 C:\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#10 C:\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#11 C:\xampp\htdocs\drugDisp\themes\blackboot\views\layouts\column1.php(9): CBaseController->endContent()
+#12 C:\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#13 C:\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#14 C:\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\drugDisp\protected\controllers\SiteController.php(32): CController->render('index')
+#16 C:\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#17 C:\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\yii\framework\web\CWebApplication.php(282): CController->run('')
+#21 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#22 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\drugDisp\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/drugDisp/index.php/
+---
+2014/03/06 06:50:41 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbMenu" is invalid. Make sure it points to an existing directory or file.' in C:\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\yii\framework\web\CWidgetFactory.php(146): YiiBase::import('bootstrap.widge...', true)
+#1 C:\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\xampp\htdocs\drugDisp\themes\blackboot\views\layouts\main.php(79): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="row...')
+#8 C:\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="row...')
+#9 C:\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#10 C:\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#11 C:\xampp\htdocs\drugDisp\themes\blackboot\views\layouts\column1.php(9): CBaseController->endContent()
+#12 C:\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#13 C:\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#14 C:\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\drugDisp\protected\controllers\SiteController.php(32): CController->render('index')
+#16 C:\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#17 C:\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\yii\framework\web\CWebApplication.php(282): CController->run('')
+#21 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#22 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\drugDisp\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/drugDisp/index.php/
+---
+2014/03/06 06:52:12 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbMenu" is invalid. Make sure it points to an existing directory or file.' in C:\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\yii\framework\web\CWidgetFactory.php(146): YiiBase::import('bootstrap.widge...', true)
+#1 C:\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\xampp\htdocs\drugDisp\themes\blackboot\views\layouts\main.php(79): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="row...')
+#8 C:\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="row...')
+#9 C:\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#10 C:\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#11 C:\xampp\htdocs\drugDisp\themes\blackboot\views\layouts\column1.php(9): CBaseController->endContent()
+#12 C:\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#13 C:\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#14 C:\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\drugDisp\protected\controllers\SiteController.php(32): CController->render('index')
+#16 C:\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#17 C:\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\yii\framework\web\CWebApplication.php(282): CController->run('')
+#21 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#22 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\drugDisp\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/drugDisp/index.php/
+---
+2014/03/06 06:52:13 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbMenu" is invalid. Make sure it points to an existing directory or file.' in C:\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\yii\framework\web\CWidgetFactory.php(146): YiiBase::import('bootstrap.widge...', true)
+#1 C:\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\xampp\htdocs\drugDisp\themes\blackboot\views\layouts\main.php(79): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="row...')
+#8 C:\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="row...')
+#9 C:\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#10 C:\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#11 C:\xampp\htdocs\drugDisp\themes\blackboot\views\layouts\column1.php(9): CBaseController->endContent()
+#12 C:\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#13 C:\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#14 C:\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\drugDisp\protected\controllers\SiteController.php(32): CController->render('index')
+#16 C:\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#17 C:\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\yii\framework\web\CWebApplication.php(282): CController->run('')
+#21 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#22 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\drugDisp\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/drugDisp/index.php/
+---
+2014/03/06 06:52:15 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbMenu" is invalid. Make sure it points to an existing directory or file.' in C:\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\yii\framework\web\CWidgetFactory.php(146): YiiBase::import('bootstrap.widge...', true)
+#1 C:\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\xampp\htdocs\drugDisp\themes\blackboot\views\layouts\main.php(79): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="row...')
+#8 C:\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="row...')
+#9 C:\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#10 C:\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#11 C:\xampp\htdocs\drugDisp\themes\blackboot\views\layouts\column1.php(9): CBaseController->endContent()
+#12 C:\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#13 C:\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#14 C:\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\drugDisp\protected\controllers\SiteController.php(32): CController->render('index')
+#16 C:\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#17 C:\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\yii\framework\web\CWebApplication.php(282): CController->run('')
+#21 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#22 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\drugDisp\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/drugDisp/index.php/
+---
+2014/03/06 06:54:32 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\yii\framework\YiiBase.php:322
+Stack trace:
+#0 C:\yii\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\yii\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\yii\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\yii\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\yii\framework\YiiBase.php(125): CApplication->__construct('C:\xampp\htdocs...')
+#5 C:\yii\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\drugDisp\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#7 {main}
+REQUEST_URI=/drugDisp/index.php/
+---
+2014/03/06 06:54:33 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\yii\framework\YiiBase.php:322
+Stack trace:
+#0 C:\yii\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\yii\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\yii\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\yii\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\yii\framework\YiiBase.php(125): CApplication->__construct('C:\xampp\htdocs...')
+#5 C:\yii\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\drugDisp\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#7 {main}
+REQUEST_URI=/drugDisp/index.php/
+---
+2014/03/06 06:55:51 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\yii\framework\YiiBase.php:322
+Stack trace:
+#0 C:\yii\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\yii\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\yii\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\yii\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\yii\framework\YiiBase.php(125): CApplication->__construct('C:\xampp\htdocs...')
+#5 C:\yii\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\drugDisp\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#7 {main}
+REQUEST_URI=/drugDisp/index.php/
+---
+2014/03/06 06:55:53 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\yii\framework\YiiBase.php:322
+Stack trace:
+#0 C:\yii\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\yii\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\yii\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\yii\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\yii\framework\YiiBase.php(125): CApplication->__construct('C:\xampp\htdocs...')
+#5 C:\yii\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\drugDisp\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#7 {main}
+REQUEST_URI=/drugDisp/index.php/
+---
+2014/03/06 06:57:42 [error] [exception.CDbException] exception 'CDbException' with message 'The table "p_info" for active record class "Patient" cannot be found in the database.' in C:\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Patient))
+#1 C:\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\drugDisp\protected\controllers\PatientController.php(108): CActiveRecord->__construct('search')
+#3 C:\yii\framework\web\actions\CInlineAction.php(49): PatientController->actionIndex()
+#4 C:\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('patient/index')
+#14 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\drugDisp\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/drugDisp/index.php?r=patient/index
+HTTP_REFERER=http://localhost/drugDisp/index.php/
+---
+2014/03/06 06:57:51 [error] [exception.CDbException] exception 'CDbException' with message 'The table "drug" for active record class "Drug" cannot be found in the database.' in C:\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Drug))
+#1 C:\yii\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\yii\framework\db\ar\CActiveRecord.php(1601): CActiveRecord->getTableSchema()
+#3 C:\yii\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#4 C:\yii\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#5 C:\yii\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#6 C:\yii\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#7 C:\yii\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#8 C:\yii\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#9 C:\yii\framework\web\CBaseController.php(147): CListView->init()
+#10 C:\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#11 C:\xampp\htdocs\drugDisp\protected\views\drug\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#12 C:\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#13 C:\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#14 C:\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#15 C:\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#16 C:\xampp\htdocs\drugDisp\protected\controllers\DrugController.php(145): CController->render('index', Array)
+#17 C:\yii\framework\web\actions\CInlineAction.php(49): DrugController->actionIndex()
+#18 C:\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#20 C:\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#22 C:\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#23 C:\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#24 C:\yii\framework\web\CController.php(291): CFilterChain->run()
+#25 C:\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 C:\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#27 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('drug/index')
+#28 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#29 C:\xampp\htdocs\drugDisp\index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/drugDisp/index.php?r=drug/index
+HTTP_REFERER=http://localhost/drugDisp/index.php/
+---
+2014/03/06 07:08:12 [error] [php] Object of class CJuiAutoComplete could not be converted to string (C:\xampp\htdocs\drugDisp\protected\views\drug\_form.php:122)
+Stack trace:
+#0 C:\yii\framework\web\CController.php(869): DrugController->renderFile()
+#1 C:\xampp\htdocs\drugDisp\protected\views\drug\create.php(18): DrugController->renderPartial()
+#2 C:\yii\framework\web\CBaseController.php(126): require()
+#3 C:\yii\framework\web\CBaseController.php(95): DrugController->renderInternal()
+#4 C:\yii\framework\web\CController.php(869): DrugController->renderFile()
+#5 C:\yii\framework\web\CController.php(782): DrugController->renderPartial()
+#6 C:\xampp\htdocs\drugDisp\protected\controllers\DrugController.php(79): DrugController->render()
+#7 C:\yii\framework\web\actions\CInlineAction.php(49): DrugController->actionCreate()
+#8 C:\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\yii\framework\web\filters\CFilterChain.php(133): DrugController->runAction()
+#10 C:\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\yii\framework\web\filters\CInlineFilter.php(58): DrugController->filterAccessControl()
+#13 C:\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\yii\framework\web\CController.php(265): DrugController->runActionWithFilters()
+#16 C:\yii\framework\web\CWebApplication.php(282): DrugController->run()
+#17 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\drugDisp\index.php(13): CWebApplication->run()
+REQUEST_URI=/drugDisp/index.php?r=drug/create
+in C:\xampp\htdocs\drugDisp\protected\views\drug\_form.php (122)
+in C:\xampp\htdocs\drugDisp\protected\views\drug\create.php (18)
+in C:\xampp\htdocs\drugDisp\protected\controllers\DrugController.php (79)
+2014/03/06 07:13:08 [error] [php] Object of class CJuiAutoComplete could not be converted to string (C:\xampp\htdocs\drugDisp\protected\views\drug\_form.php:122)
+Stack trace:
+#0 C:\yii\framework\web\CController.php(869): DrugController->renderFile()
+#1 C:\xampp\htdocs\drugDisp\protected\views\drug\create.php(18): DrugController->renderPartial()
+#2 C:\yii\framework\web\CBaseController.php(126): require()
+#3 C:\yii\framework\web\CBaseController.php(95): DrugController->renderInternal()
+#4 C:\yii\framework\web\CController.php(869): DrugController->renderFile()
+#5 C:\yii\framework\web\CController.php(782): DrugController->renderPartial()
+#6 C:\xampp\htdocs\drugDisp\protected\controllers\DrugController.php(79): DrugController->render()
+#7 C:\yii\framework\web\actions\CInlineAction.php(49): DrugController->actionCreate()
+#8 C:\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\yii\framework\web\filters\CFilterChain.php(133): DrugController->runAction()
+#10 C:\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\yii\framework\web\filters\CInlineFilter.php(58): DrugController->filterAccessControl()
+#13 C:\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\yii\framework\web\CController.php(265): DrugController->runActionWithFilters()
+#16 C:\yii\framework\web\CWebApplication.php(282): DrugController->run()
+#17 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\drugDisp\index.php(13): CWebApplication->run()
+REQUEST_URI=/drugDisp/index.php?r=drug/create
+in C:\xampp\htdocs\drugDisp\protected\views\drug\_form.php (122)
+in C:\xampp\htdocs\drugDisp\protected\views\drug\create.php (18)
+in C:\xampp\htdocs\drugDisp\protected\controllers\DrugController.php (79)
+2014/03/06 07:48:17 [error] [php] Undefined variable: i (C:\xampp\htdocs\drugDisp\protected\views\drug\_form.php:126)
+Stack trace:
+#0 C:\yii\framework\web\CController.php(869): DrugController->renderFile()
+#1 C:\xampp\htdocs\drugDisp\protected\views\drug\create.php(18): DrugController->renderPartial()
+#2 C:\yii\framework\web\CBaseController.php(126): require()
+#3 C:\yii\framework\web\CBaseController.php(95): DrugController->renderInternal()
+#4 C:\yii\framework\web\CController.php(869): DrugController->renderFile()
+#5 C:\yii\framework\web\CController.php(782): DrugController->renderPartial()
+#6 C:\xampp\htdocs\drugDisp\protected\controllers\DrugController.php(79): DrugController->render()
+#7 C:\yii\framework\web\actions\CInlineAction.php(49): DrugController->actionCreate()
+#8 C:\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\yii\framework\web\filters\CFilterChain.php(133): DrugController->runAction()
+#10 C:\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\yii\framework\web\filters\CInlineFilter.php(58): DrugController->filterAccessControl()
+#13 C:\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\yii\framework\web\CController.php(265): DrugController->runActionWithFilters()
+#16 C:\yii\framework\web\CWebApplication.php(282): DrugController->run()
+#17 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\drugDisp\index.php(13): CWebApplication->run()
+REQUEST_URI=/drugDisp/index.php?r=drug/create
+in C:\xampp\htdocs\drugDisp\protected\views\drug\_form.php (126)
+in C:\xampp\htdocs\drugDisp\protected\views\drug\create.php (18)
+in C:\xampp\htdocs\drugDisp\protected\controllers\DrugController.php (79)
+2014/03/06 07:48:53 [error] [php] Undefined variable: i (C:\xampp\htdocs\drugDisp\protected\views\drug\_form.php:126)
+Stack trace:
+#0 C:\yii\framework\web\CController.php(869): DrugController->renderFile()
+#1 C:\xampp\htdocs\drugDisp\protected\views\drug\create.php(18): DrugController->renderPartial()
+#2 C:\yii\framework\web\CBaseController.php(126): require()
+#3 C:\yii\framework\web\CBaseController.php(95): DrugController->renderInternal()
+#4 C:\yii\framework\web\CController.php(869): DrugController->renderFile()
+#5 C:\yii\framework\web\CController.php(782): DrugController->renderPartial()
+#6 C:\xampp\htdocs\drugDisp\protected\controllers\DrugController.php(79): DrugController->render()
+#7 C:\yii\framework\web\actions\CInlineAction.php(49): DrugController->actionCreate()
+#8 C:\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\yii\framework\web\filters\CFilterChain.php(133): DrugController->runAction()
+#10 C:\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\yii\framework\web\filters\CInlineFilter.php(58): DrugController->filterAccessControl()
+#13 C:\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\yii\framework\web\CController.php(265): DrugController->runActionWithFilters()
+#16 C:\yii\framework\web\CWebApplication.php(282): DrugController->run()
+#17 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\drugDisp\index.php(13): CWebApplication->run()
+REQUEST_URI=/drugDisp/index.php?r=drug/create
+in C:\xampp\htdocs\drugDisp\protected\views\drug\_form.php (126)
+in C:\xampp\htdocs\drugDisp\protected\views\drug\create.php (18)
+in C:\xampp\htdocs\drugDisp\protected\controllers\DrugController.php (79)
+2014/03/06 07:49:46 [error] [php] Undefined variable: i (C:\xampp\htdocs\drugDisp\protected\views\drug\_form.php:126)
+Stack trace:
+#0 C:\yii\framework\web\CController.php(869): DrugController->renderFile()
+#1 C:\xampp\htdocs\drugDisp\protected\views\drug\create.php(18): DrugController->renderPartial()
+#2 C:\yii\framework\web\CBaseController.php(126): require()
+#3 C:\yii\framework\web\CBaseController.php(95): DrugController->renderInternal()
+#4 C:\yii\framework\web\CController.php(869): DrugController->renderFile()
+#5 C:\yii\framework\web\CController.php(782): DrugController->renderPartial()
+#6 C:\xampp\htdocs\drugDisp\protected\controllers\DrugController.php(79): DrugController->render()
+#7 C:\yii\framework\web\actions\CInlineAction.php(49): DrugController->actionCreate()
+#8 C:\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\yii\framework\web\filters\CFilterChain.php(133): DrugController->runAction()
+#10 C:\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\yii\framework\web\filters\CInlineFilter.php(58): DrugController->filterAccessControl()
+#13 C:\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\yii\framework\web\CController.php(265): DrugController->runActionWithFilters()
+#16 C:\yii\framework\web\CWebApplication.php(282): DrugController->run()
+#17 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\drugDisp\index.php(13): CWebApplication->run()
+REQUEST_URI=/drugDisp/index.php?r=drug/create
+in C:\xampp\htdocs\drugDisp\protected\views\drug\_form.php (126)
+in C:\xampp\htdocs\drugDisp\protected\views\drug\create.php (18)
+in C:\xampp\htdocs\drugDisp\protected\controllers\DrugController.php (79)
+2014/03/06 08:32:02 [error] [exception.CException] exception 'CException' with message 'Property "Drug.isNewR" is not defined.' in C:\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('isNewR')
+#1 C:\xampp\htdocs\drugDisp\protected\views\drug\_form.php(125): CActiveRecord->__get('isNewR')
+#2 C:\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\drugDisp\protected\views\drug\create.php(18): CController->renderPartial('_form', Array)
+#6 C:\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#10 C:\xampp\htdocs\drugDisp\protected\controllers\DrugController.php(79): CController->render('create', Array)
+#11 C:\yii\framework\web\actions\CInlineAction.php(49): DrugController->actionCreate()
+#12 C:\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\yii\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#21 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('drug/create')
+#22 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\drugDisp\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/drugDisp/index.php?r=drug/create
+HTTP_REFERER=http://localhost/drugDisp/index.php?r=drug/index
+---
+2014/03/06 08:37:21 [error] [php] Use of undefined constant Drug - assumed 'Drug' (C:\xampp\htdocs\drugDisp\protected\controllers\DrugController.php:74)
+Stack trace:
+#0 C:\yii\framework\web\filters\CFilterChain.php(133): DrugController->runAction()
+#1 C:\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\yii\framework\web\filters\CInlineFilter.php(58): DrugController->filterAccessControl()
+#4 C:\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\yii\framework\web\CController.php(265): DrugController->runActionWithFilters()
+#7 C:\yii\framework\web\CWebApplication.php(282): DrugController->run()
+#8 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\drugDisp\index.php(13): CWebApplication->run()
+REQUEST_URI=/drugDisp/index.php?r=drug/create
+in C:\xampp\htdocs\drugDisp\protected\controllers\DrugController.php (74)
+in C:\xampp\htdocs\drugDisp\index.php (13)
+2014/03/06 08:44:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\drugDisp\protected\controllers\DrugController.php:208
+Stack trace:
+#0 C:\xampp\htdocs\drugDisp\protected\controllers\DrugController.php(55): DrugController->loadModel('')
+#1 [internal function]: DrugController->actionView('')
+#2 C:\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(DrugController), Array)
+#3 C:\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(DrugController), Object(ReflectionMethod), Array)
+#4 C:\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('drug/view')
+#14 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\drugDisp\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/drugDisp/index.php?r=drug/view&id=
+HTTP_REFERER=http://localhost/drugDisp/index.php?r=drug/create
+---
+2014/03/06 10:11:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\drugDisp\protected\controllers\DrugController.php:208
+Stack trace:
+#0 C:\xampp\htdocs\drugDisp\protected\controllers\DrugController.php(55): DrugController->loadModel('')
+#1 [internal function]: DrugController->actionView('')
+#2 C:\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(DrugController), Array)
+#3 C:\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(DrugController), Object(ReflectionMethod), Array)
+#4 C:\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('drug/view')
+#14 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\drugDisp\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/drugDisp/index.php?r=drug/view&id=
+HTTP_REFERER=http://localhost/drugDisp/index.php?r=Drug/Create
+---
+2014/03/06 10:11:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\drugDisp\protected\controllers\DrugController.php:208
+Stack trace:
+#0 C:\xampp\htdocs\drugDisp\protected\controllers\DrugController.php(55): DrugController->loadModel('')
+#1 [internal function]: DrugController->actionView('')
+#2 C:\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(DrugController), Array)
+#3 C:\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(DrugController), Object(ReflectionMethod), Array)
+#4 C:\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('drug/view')
+#14 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\drugDisp\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/drugDisp/index.php?r=drug/view&id=
+HTTP_REFERER=http://localhost/drugDisp/index.php?r=Drug/Create
+---
+2014/03/06 10:46:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\drugDisp\protected\controllers\DrugController.php:208
+Stack trace:
+#0 C:\xampp\htdocs\drugDisp\protected\controllers\DrugController.php(156): DrugController->loadModel('24')
+#1 [internal function]: DrugController->actionDelete('24')
+#2 C:\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(DrugController), Array)
+#3 C:\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(DrugController), Object(ReflectionMethod), Array)
+#4 C:\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\yii\framework\web\CController.php(1116): CFilterChain->run()
+#7 C:\yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#8 C:\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#16 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('drug/delete')
+#17 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\drugDisp\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/drugDisp/index.php?ajax=drug-grid&id=24&r=drug%2Fdelete
+HTTP_REFERER=http://localhost/drugDisp/index.php?r=drug/admin
+---
+2014/03/07 13:13:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "listPatient".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('listPatient')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listPatient')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('drug/listPatien...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Repo\DrugDisp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/repo/DrugDisp/index.php?r=drug/listPatient
+HTTP_REFERER=http://localhost/repo/DrugDisp/index.php?r=site/login
+---
+2014/03/07 13:15:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "listPatient".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('listPatient')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listPatient')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('drug/listPatien...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Repo\DrugDisp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/repo/DrugDisp/index.php?r=drug/listPatient
+HTTP_REFERER=http://localhost/repo/DrugDisp/index.php?r=patient/create
+---
+2014/03/07 13:16:02 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'drugprescription.drug' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `drug`.
+in C:\xampp\htdocs\Repo\DrugDisp\protected\controllers\DrugController.php (239)
+in C:\xampp\htdocs\Repo\DrugDisp\index.php (13)
+2014/03/07 13:16:02 [error] [exception.CDbException] exception 'CDbException' with message 'The table "drug" for active record class "Drug" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Drug))
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\Repo\DrugDisp\protected\controllers\DrugController.php(239): CActiveRecord->__construct('distinctPatient')
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): DrugController->actionListPatient()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listPatient')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('drug/listPatien...')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Repo\DrugDisp\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/repo/DrugDisp/index.php?r=drug/listPatient
+HTTP_REFERER=http://localhost/repo/DrugDisp/index.php?r=patient/create
+---
+2014/03/07 13:16:17 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'drugprescription.drug' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `drug`.
+in C:\xampp\htdocs\Repo\DrugDisp\protected\controllers\DrugController.php (65)
+in C:\xampp\htdocs\Repo\DrugDisp\index.php (13)
+2014/03/07 13:16:17 [error] [exception.CDbException] exception 'CDbException' with message 'The table "drug" for active record class "Drug" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Drug))
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\Repo\DrugDisp\protected\controllers\DrugController.php(65): CActiveRecord->__construct()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): DrugController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('drug/create')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Repo\DrugDisp\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/repo/DrugDisp/index.php?r=drug/create
+HTTP_REFERER=http://localhost/repo/DrugDisp/index.php?r=patient/create
+---
+2014/03/07 13:27:36 [error] [exception.CException] exception 'CException' with message 'DrugController contains improperly nested widget tags in its view "C:\xampp\htdocs\Repo\DrugDisp\protected\views\drug\_search.php". A CActiveForm widget does not have an endWidget() call.' in C:\xampp\htdocs\yii\framework\web\CBaseController.php:101
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#1 C:\xampp\htdocs\Repo\DrugDisp\protected\views\drug\admin.php(40): CController->renderPartial('_search', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#6 C:\xampp\htdocs\Repo\DrugDisp\protected\controllers\DrugController.php(186): CController->render('admin', Array)
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): DrugController->actionAdmin()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('drug/admin')
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\Repo\DrugDisp\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/repo/DrugDisp/index.php?r=drug/admin
+HTTP_REFERER=http://localhost/repo/DrugDisp/index.php?r=drug/create
+---
+2014/03/07 13:27:59 [error] [exception.CException] exception 'CException' with message 'DrugController contains improperly nested widget tags in its view "C:\xampp\htdocs\Repo\DrugDisp\protected\views\drug\_search.php". A CActiveForm widget does not have an endWidget() call.' in C:\xampp\htdocs\yii\framework\web\CBaseController.php:101
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#1 C:\xampp\htdocs\Repo\DrugDisp\protected\views\drug\admin.php(40): CController->renderPartial('_search', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#6 C:\xampp\htdocs\Repo\DrugDisp\protected\controllers\DrugController.php(186): CController->render('admin', Array)
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): DrugController->actionAdmin()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('drug/admin')
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\Repo\DrugDisp\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/repo/DrugDisp/index.php?r=drug/admin
+HTTP_REFERER=http://localhost/repo/DrugDisp/index.php?r=drug/create
+---

@@ -1,0 +1,41 @@
+<?php
+     
+   
+     $criteria = new CDbCriteria;
+$criteria->order = 'Days DESC';
+$data1 = Drug::model()->findAllByAttributes(array('pid'=>$_GET['aid']), $criteria);
+$days = $data1[0]->Days;
+
+             
+     
+     ?>
+
+<?php /**
+ 
+    $this->widget(
+        'bootstrap.widgets.TbTabs',
+     array(
+            'type' => 'tabs', // 'tabs' or 'pills'
+            'tabs' => array(
+                       array('label' => 'Day 1', 'content' =>$this->renderPartial('dailySchedule',array('model'=>$model,'pid'=>$_GET['aid']),true), 'active'=>true ),
+                array('label' => 'Day 2', 'content' => $this->renderPartial('dailySchedule',array('model'=>$model,'pid'=>$_GET['aid']),true)),
+                            array('label' => 'Day 3', 'content' => $this->renderPartial('dailySchedule',array('model'=>$model,'pid'=>$_GET['aid']),true)),
+                array('label' => 'Day 4', 'content' => $this->renderPartial('dailySchedule',array('model'=>$model,'pid'=>$_GET['aid']),true)),
+                array('label' => 'Day 5', 'content' => $this->renderPartial('dailySchedule',array('model'=>$model,'pid'=>$_GET['aid']),true)),
+                array('label' => 'Day 6', 'content' => $this->renderPartial('dailySchedule',array('model'=>$model,'pid'=>$_GET['aid']),true)),
+                array('label' => 'Day 7', 'content' => $this->renderPartial('dailySchedule',array('model'=>$model,'pid'=>$_GET['aid']),true)),
+
+                ),
+        )
+    ); **/
+ ?>
+<ul class="nav nav-pills">
+   <?php
+for ($x=1; $x<=$days; $x++)
+  {
+  ?> 
+  <li><a href="<?php echo Yii::app()->controller->createUrl('Drug/Day',array('pid'=>$_GET['aid'],'day'=>$x)); ?>"><?php echo 'Day'.' '.$x; ?> </a></li>
+  <?php } ?>
+</ul>
+
+

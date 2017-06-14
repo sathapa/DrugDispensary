@@ -1,0 +1,73 @@
+<?php
+
+
+$criteria = new CDbCriteria;
+$criteria->order = 'Days DESC';
+$data1 = Drug::model()->findAllByAttributes(array('pid'=>$_GET['aid']), $criteria);
+$days = $data1[0]->Days;
+
+
+
+?>
+
+<ul class="nav nav-pills">
+    <?php
+    for ($x=1; $x<=$days; $x++)
+    {
+        ?>
+        <li><a href="<?php echo Yii::app()->controller->createUrl('Drug/Day',array('pid'=>$_GET['aid'],'day'=>$x)); ?>"><?php echo 'Day'.' '.$x; ?> </a></li>
+    <?php } ?>
+</ul>
+
+
+
+
+<?php
+
+
+$criteria = new CDbCriteria;
+$criteria->order = 'Days DESC';
+$data1 = Drug::model()->findAllByAttributes(array('pid'=>$_GET['aid']), $criteria);
+$days = $data1[0]->Days;
+
+
+
+?>
+
+<body>
+<?php for($x=1; $x<=$days; $x++){ ?>
+
+    <div  class="nav nav-tabs" data-toggle="modal" data-target="#myModal<?php echo $x; ?>">
+        <li class="btn btn btn-large"><?php echo 'Day'.' '.$x; ?></li>
+    </div>
+
+
+
+
+    <!-- Modal -->
+    <div class="modal hide fade" id="myModal<?php echo $x; ?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width: 1000px; margin-left: -480px;" >
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title" id="myModalLabel"><?php echo 'Day'.' '.$x; ?></h4>
+                </div>
+                <div class="modal-body">
+
+                    <?php  $this->renderPartial('dailySchedule', array('model'=>$model,"pid"=>$_GET['aid'],'day'=>$x)); ?>
+
+
+                    <div class="modal-footer">
+                            <input type="submit" class="btn btn-success" name="submit" value="Submit Record" style="margin-left: 30px;">
+                            <button type="button" class="btn btn-inverse" data-dismiss="modal" style="margin-left: 15px;">Close</button>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<?php } ?>
+
+</body>
+
+
